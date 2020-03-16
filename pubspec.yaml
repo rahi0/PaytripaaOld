@@ -1,0 +1,134 @@
+name: pay_trippa
+description: A new Flutter project.
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.2
+  country_code_picker:
+  country_pickers:
+  pin_code_text_field:
+  intl:
+  image_picker:
+  image_cropper:
+  video_player: ^0.10.2+5
+  google_maps_flutter:
+  http:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+   - assets/img/home.png
+   - assets/img/camera.png
+   - assets/img/feed.png
+   - assets/img/chat.png
+   - assets/img/profile.png
+   - assets/img/noti.png
+   - assets/img/hometop.png
+   - assets/img/LiveChat.png
+   - assets/img/BloodBank.png
+   - assets/img/searchDoc.png
+   - assets/img/searchHos.png
+   - assets/img/tool.png
+   - assets/img/diet.png
+   - assets/img/intro1.png
+   - assets/img/intro2.png
+   - assets/img/intro3.png
+   - assets/img/fb.png
+   - assets/img/insta.png
+   - assets/img/twet.png
+   - assets/img/uber.png
+   - assets/img/lyft.png
+   - assets/img/uberDrop.png
+   - assets/img/grabDrop.png
+   - assets/img/lyftDrop.png
+   - assets/img/cash.png
+   - assets/img/carLogo.png
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: fonts/Poppins-Black.ttf
+          weight: 900
+        - asset: fonts/Poppins-Bold.ttf
+          weight: 800
+        - asset: fonts/Poppins-SemiBold.ttf
+          weight: 700
+        - asset: fonts/Poppins-Light.ttf
+          weight: 300
+        - asset: fonts/Poppins-ExtraLight.ttf
+          weight: 200
+        - asset: fonts/Poppins-Medium.ttf
+          weight: 500
+        - asset: fonts/Poppins-Regular.ttf
+          weight: 400
+    - family: SourceSansPro
+      fonts:
+        - asset: fonts/SourceSansPro-Black.ttf
+          weight: 900
+        - asset: fonts/SourceSansPro-Bold.ttf
+          weight: 800
+        - asset: fonts/SourceSansPro-Light.ttf
+          weight: 300
+        - asset: fonts/SourceSansPro-ExtraLight.ttf
+          weight: 200
+        - asset: fonts/SourceSansPro-ExtraLightItalic.ttf
+          weight: 100
+        - asset: fonts/SourceSansPro-Italic.ttf
+          weight: 500
+          style: italic
+        - asset: fonts/SourceSansPro-SemiBold.ttf
+          weight: 600
+        - asset: fonts/SourceSansPro-Regular.ttf
+          weight: 400
+    - family: Helvetica
+      fonts:
+        - asset: fonts/Helvetica.ttf
+          weight: 400
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
